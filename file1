@@ -1,0 +1,37 @@
+#!/bin/bash
+echo "Hello guys"
+echo "Welcome to Sh..."
+echo "its versy to learn SH ,...if you know the Linux commands "
+echo "today date:"
+date 
+
+a=10
+b=20
+c=30
+name=Kotraiah
+
+echo "a variable value is: "${a}
+echo "b variable value is: "${b}
+echo "c variable value is: "${c}
+echo "name variable value is: "${name}
+
+String : string is the group of characters enclosed in a '' or " " .
+name=''
+name='kotresh'
+string_var="Hi team, my name is kotresh,working in techpark "
+sub String : some portion of string 
+echo ${string_var:20}->kotresh,working in techpark
+echo ${string_var:20:14}-->kotresh
+echo ${string_var: -8}-->techpark
+
+string_var="Hi team, my name is kotresh,working in global techpark "
+echo $string_var
+echo ${string_var}
+
+echo ${#string_var}
+
+echo ${string_var:9}
+
+echo ${string_var:9:18}
+
+echo ${string_var: -9}
