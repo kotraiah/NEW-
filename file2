@@ -1,0 +1,12 @@
+Arithmetic Operations 
+expr 2 + 3
+expr 2 - 3
+expr 2 * 3
+expr 12 / 2
+expr 20 % 3	
+
+echo "The addition of 2 and 3 is:" `expr 2 + 3`
+echo "The substraction of 2 over 3 is:" `expr 2 - 3`
+echo "The Multiplecation of 2 and 3 is:" `expr 2 \* 3`
+echo "The division 12 over 2 is:" `expr 12 / 2`
+echo "The modular of 20 over 3 is:" `expr 20 % 3`  
